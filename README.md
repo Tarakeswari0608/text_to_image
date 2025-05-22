@@ -1,1 +1,3 @@
 # text_to_image
+
+Text-to-image generation is a process where a computer creates images based on written descriptions. One popular method, called Stable Diffusion, starts with a random noise image and gradually transforms it into a clear picture using a series of steps. A key part of this process involves understanding the text using a model called CLIP, and then guiding the image transformation using a special neural network called U-Net. Over many small steps, the noise is reduced, and the image becomes more detailed and aligned with the text prompt. This approach combines machine learning models like Variational Autoencoders (VAE) and diffusion models to produce realistic and diverse images from text.
